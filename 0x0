@@ -33,7 +33,7 @@ while true; do
 done
 shift $((OPTIND - 1))
 
-WEBSITE="http://0x0.st"
+WEBSITE="https://0x0.st"
 
 if [ "$1" == "" ]; then
 	echo "File name argument is missing" >&2
